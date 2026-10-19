@@ -1,0 +1,15 @@
+# Raw/derived StatsBomb data: recreate with  python src/download_wsl.py  and  python src/download_training_shots.py
+data/
+
+# Python / Jupyter
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+catboost_info/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,7 @@
+season,group,shots,xg_per_shot,share_in_box,share_in_six_yard_box,share_headers,mean_distance_yds
+2019/20,Spurs shots,180,0.074,0.5,0.078,0.111,22.332
+2019/20,Shots against Spurs,256,0.105,0.582,0.102,0.129,18.612
+2019/20,Rest of league,1765,0.105,0.612,0.097,0.141,19.167
+2020/21,Spurs shots,196,0.094,0.556,0.122,0.184,19.808
+2020/21,Shots against Spurs,276,0.108,0.634,0.101,0.174,17.58
+2020/21,Rest of league,2740,0.114,0.645,0.108,0.164,17.742
