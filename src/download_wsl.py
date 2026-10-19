@@ -1,6 +1,6 @@
 """
-Download StatsBomb Open Data for the FA Women's Super League (2018/19 to
-2020/21) and turn each match into four compact tables:
+Download StatsBomb Open Data for the FA Women's Super League (2018/19,
+2019/20, 2020/21 and 2023/24) and turn each match into four compact tables:
 
   data/wsl/matches.csv          one row per match (season, date, teams, score)
   data/wsl/shots/37_<sid>.jsonl every Shot plus its key pass, in the same format
@@ -28,7 +28,7 @@ import requests
 BASE = "https://raw.githubusercontent.com/statsbomb/open-data/master/data"
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "wsl")
 COMP_ID = 37
-SEASONS = [(4, "2018/19"), (42, "2019/20"), (90, "2020/21")]
+SEASONS = [(4, "2018/19"), (42, "2019/20"), (90, "2020/21"), (281, "2023/24")]
 SET_PIECES = {"Corner", "Free Kick", "Throw-in", "Goal Kick", "Kick Off"}
 GOAL = (120.0, 40.0)
 session = requests.Session()
